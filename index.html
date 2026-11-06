@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>OpenDesk — free remote desktop for Windows and Ubuntu</title>
+<meta name="description" content="OpenDesk is a free remote desktop app. Type someone's 9-digit ID, they click Accept, and you can see and use their computer from anywhere. Windows 10/11 and Ubuntu.">
+<meta name="theme-color" content="#e5484d">
+<meta property="og:title" content="OpenDesk — free remote desktop">
+<meta property="og:description" content="See and use another computer from anywhere. Free, private, no account. Windows and Ubuntu.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://kanthurijaswanth.github.io/opendesk/assets/shots/home-light.png">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preload" href="assets/fonts/Manrope-400-800-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="top">
+  <div class="nav-in">
+    <a class="brand" href="#top" aria-label="OpenDesk home">
+      <img src="assets/logo.png" alt="" width="36" height="36">
+      <span>OpenDesk</span>
+    </a>
+    <nav class="links" aria-label="Main">
+      <a href="#how">How it works</a>
+      <a href="#features">Features</a>
+      <a href="#tour">Look inside</a>
+      <a href="#security">Security</a>
+      <a href="#faq">Questions</a>
+    </nav>
+    <a class="btn btn-sm btn-primary" href="#download">Download</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-in">
+      <div class="hero-copy">
+        <span class="eyebrow">Free remote desktop · Windows &amp; Ubuntu</span>
+        <h1>Help anyone with their computer, from anywhere.</h1>
+        <p class="lead">Type their 9-digit ID, they click <b>Accept</b>, and their screen appears on yours. Fix a problem for your parents, reach your office PC from home, or show a friend where to click. No account, no setup, no cost.</p>
+        <div class="cta">
+          <a class="btn btn-primary btn-lg" id="dlMain" href="https://github.com/kanthurijaswanth/opendesk/releases/download/v1.3.0/OpenDesk-Remote-1.3.0-Setup.exe">
+            <svg class="ic" aria-hidden="true"><use href="#i-download"/></svg><span id="dlMainLabel">Download for Windows</span>
+          </a>
+          <a class="btn btn-ghost btn-lg" id="dlAlt" href="https://github.com/kanthurijaswanth/opendesk/releases/download/v1.3.0/OpenDesk-Remote-1.3.0.deb">
+            <span id="dlAltLabel">Ubuntu (.deb)</span>
+          </a>
+        </div>
+        <p class="meta">Version 1.3.0 · <span id="dlMeta">Windows 10 and 11 · 79 MB</span> · <a href="#download">All downloads</a></p>
+      </div>
+      <figure class="hero-shot">
+        <div class="window">
+          <div class="window-bar" aria-hidden="true"><i></i><i></i><i></i></div>
+          <picture>
+            <source srcset="assets/shots/home-dark.png" media="(prefers-color-scheme: dark)">
+            <img src="assets/shots/home-light.png" alt="The OpenDesk home screen: your 9-digit ID on the left, a box to type the other computer's ID on the right, and saved computers below." width="1920" height="1008">
+          </picture>
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ID STRIP -->
+  <section class="idstrip" aria-label="How an ID works">
+    <div class="idstrip-in">
+      <div class="idcard">
+        <span class="idlabel">Their ID</span>
+        <span class="idnum">482 913 057</span>
+      </div>
+      <p>Every computer with OpenDesk gets its own <b>9-digit ID</b>, like a phone number. It never changes, and only people you give it to can ask to connect.</p>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section" id="how">
+    <div class="section-in">
+      <div class="section-head">
+        <span class="eyebrow">How it works</span>
+        <h2>Connected in three steps</h2>
+      </div>
+      <ol class="steps">
+        <li>
+          <span class="step-n">1</span>
+          <h3>Install on both computers</h3>
+          <p>Download OpenDesk for Windows or Ubuntu and open it. Your ID is on the Home screen.</p>
+        </li>
+        <li>
+          <span class="step-n">2</span>
+          <h3>Type their ID</h3>
+          <p>Ask the other person for their ID, type it, and choose <b>Control</b> or <b>Only watch</b>.</p>
+        </li>
+        <li>
+          <span class="step-n">3</span>
+          <h3>They click Accept</h3>
+          <p>Their screen appears in about two seconds. For your own PCs, set a password and skip the Accept.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section alt" id="features">
+    <div class="section-in">
+      <div class="section-head">
+        <span class="eyebrow">Features</span>
+        <h2>Everything you need for remote help</h2>
+        <p>All of it free, with no limits on time or number of computers.</p>
+      </div>
+      <div class="features">
+        <article class="feat"><svg class="ic" aria-hidden="true"><use href="#i-pointer"/></svg><h3>Full control</h3><p>Use their mouse and keyboard as if you were sitting there. Works on scaled and multi-monitor screens.</p></article>
+        <article class="feat"><svg class="ic" aria-hidden="true"><use href="#i-key"/></svg><h3>Password access</h3><p>Reach your own computers without anyone clicking Accept. OpenDesk asks for the password when you connect.</p></article>
+        <article class="feat"><svg class="ic" aria-hidden="true"><use href="#i-folder"/></svg><h3>Send files</h3><p>Drag files across in either direction. Received files go to your Downloads folder.</p></article>
+        <article class="feat"><svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg><h3>Chat and talk</h3><p>Type messages or switch on your microphone and talk while you work.</p></article>
+        <article class="feat"><svg class="ic" aria-hidden="true"><use href="#i-pen"/></svg><h3>Draw on their screen</h3><p>Circle the button they should click. Your drawing appears on their real screen.</p></article>
+        <article class="feat"><svg class="ic" aria-hidden="true"><use href="#i-clip"/></svg><h3>Copied text</h3><p>Send the text you copied so they can paste it, like a long link or a code.</p></article>
+        <article class="feat"><svg class="ic" aria-hidden="true"><use href="#i-keyboard"/></svg><h3>Special keys</h3><p>Ctrl+Alt+Del, Alt+Tab, the Windows key and more, in one click.</p></article>
+        <article class="feat"><svg class="ic" aria-hidden="true"><use href="#i-rec"/></svg><h3>Record sessions</h3><p>Save a session as a video, handy for showing someone how something is done.</p></article>
+        <article class="feat"><svg class="ic" aria-hidden="true"><use href="#i-users"/></svg><h3>Saved computers</h3><p>Name and group the computers you help, mark favourites, and see who is online.</p></article>
+        <article class="feat"><svg class="ic" aria-hidden="true"><use href="#i-eye"/></svg><h3>Only watch</h3><p>See a screen without touching it, for a demo or when someone just wants to show you.</p></article>
+        <article class="feat"><svg class="ic" aria-hidden="true"><use href="#i-zap"/></svg><h3>Works on any network</h3><p>Connects directly for speed. If a network blocks that, it relays automatically.</p></article>
+        <article class="feat"><svg class="ic" aria-hidden="true"><use href="#i-moon"/></svg><h3>Light and dark</h3><p>A clean, modern app that follows your system theme, in plain everyday words.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- UI TOUR -->
+  <section class="section" id="tour">
+    <div class="section-in">
+      <div class="section-head">
+        <span class="eyebrow">Look inside</span>
+        <h2>Simple screens, plain words</h2>
+        <p>No technical settings to understand. Here is what you'll see.</p>
+      </div>
+      <div class="tour">
+        <div class="tabs" role="tablist" aria-label="App screens">
+          <button role="tab" id="t-home" aria-controls="p-tour" aria-selected="true" data-shot="home-light" data-cap="The Home screen: your ID on the left, the box to connect to someone on the right, and your favourite computers below.">Home</button>
+          <button role="tab" id="t-accept" aria-controls="p-tour" aria-selected="false" data-shot="accept-light" data-cap="When someone asks to connect, you see who it is and choose what they may do: use your mouse and keyboard, send copied text, send files.">Accept a request</button>
+          <button role="tab" id="t-pw" aria-controls="p-tour" aria-selected="false" data-shot="password-prompt" data-cap="Connecting to a computer that has a password: type it and you're in, no one needs to click Accept.">Password</button>
+          <button role="tab" id="t-saved" aria-controls="p-tour" aria-selected="false" data-shot="saved-dark" data-cap="Saved computers in dark mode: names, groups, favourites and who is online right now.">Saved computers</button>
+          <button role="tab" id="t-sec" aria-controls="p-tour" aria-selected="false" data-shot="security-light" data-cap="Security: password access shows clearly when it's on, with buttons to change the password or turn it off.">Security</button>
+          <button role="tab" id="t-set" aria-controls="p-tour" aria-selected="false" data-shot="settings-light" data-cap="Settings: your computer's name, look, picture quality and start-up. Nothing technical to set up.">Settings</button>
+        </div>
+        <figure class="tour-view" id="p-tour" role="tabpanel" aria-labelledby="t-home">
+          <div class="window">
+            <div class="window-bar" aria-hidden="true"><i></i><i></i><i></i></div>
+            <img id="tourImg" src="assets/shots/home-light.png" alt="" width="1920" height="1008">
+          </div>
+          <figcaption id="tourCap">The Home screen: your ID on the left, the box to connect to someone on the right, and your favourite computers below.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECURITY -->
+  <section class="section alt" id="security">
+    <div class="section-in security">
+      <div class="section-head">
+        <span class="eyebrow">Security</span>
+        <h2>You decide who gets in</h2>
+        <p>A remote desktop app opens your computer to another person, so OpenDesk is careful by default.</p>
+      </div>
+      <ul class="sec-list">
+        <li><b>Nobody gets in without you.</b> Every connection needs your Accept, or the password you set for your own computers.</li>
+        <li><b>Private connections.</b> Direct connections are end-to-end encrypted; relayed ones are encrypted on the way.</li>
+        <li><b>Your password stays with you.</b> It's never saved as text and never sent over the internet. Guessing is blocked after a few tries.</li>
+        <li><b>Your ID is yours.</b> A secret key on your computer stops anyone else from using your ID.</li>
+        <li><b>Nothing lands without asking.</b> Programs and files from the computer you control wait for your click.</li>
+        <li><b>Always in charge.</b> Switch off control or end the session at any moment, and lock your computer when they leave.</li>
+      </ul>
+      <aside class="warn">
+        <svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg>
+        <p><b>Stay safe:</b> only accept people you know. Real banks and companies never call you and ask for remote access.</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD -->
+  <section class="section" id="download">
+    <div class="section-in">
+      <div class="section-head">
+        <span class="eyebrow">Download</span>
+        <h2>Get OpenDesk 1.3.0</h2>
+        <p>Install it on both computers. Already have OpenDesk? Install on top; your ID and saved computers stay.</p>
+      </div>
+      <div class="dl-grid">
+        <article class="dl">
+          <div class="dl-top">
+            <svg class="os" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5 10.5 4.5v7H3zM11.5 4.3 21 3v8.5h-9.5zM3 12.5h7.5v7L3 18.5zM11.5 12.5H21V21l-9.5-1.3z"/></svg>
+            <div><h3>Windows</h3><span class="muted">Windows 10 and 11 · 64-bit · 79 MB</span></div>
+          </div>
+          <ol class="howto">
+            <li>Download and double-click <span class="mono">OpenDesk-Remote-1.3.0-Setup.exe</span>.</li>
+            <li>If Windows says <i>"Windows protected your PC"</i>, click <b>More info → Run anyway</b>. The app isn't code-signed yet.</li>
+            <li>Follow the steps. OpenDesk opens with your ID.</li>
+          </ol>
+          <a class="btn btn-primary" href="https://github.com/kanthurijaswanth/opendesk/releases/download/v1.3.0/OpenDesk-Remote-1.3.0-Setup.exe"><svg class="ic" aria-hidden="true"><use href="#i-download"/></svg>Download for Windows</a>
+          <details class="sum"><summary>SHA-256 checksum</summary><code>f801090e279228434058103fe8463816d5717fd2fad15c4811eca00f0f8e5fbc</code></details>
+        </article>
+        <article class="dl">
+          <div class="dl-top">
+            <svg class="os" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="20.2" cy="12" r="2.2"/><circle cx="7.9" cy="4.9" r="2.2"/><circle cx="7.9" cy="19.1" r="2.2"/></svg>
+            <div><h3>Ubuntu / Debian</h3><span class="muted">Ubuntu 22.04 or newer · 64-bit · 104 MB</span></div>
+          </div>
+          <ol class="howto">
+            <li>Download <span class="mono">OpenDesk-Remote-1.3.0.deb</span>.</li>
+            <li>Open a terminal in your Downloads folder and run:<br><code class="cmd">sudo apt install ./OpenDesk-Remote-1.3.0.deb</code></li>
+            <li>To let others <b>control</b> this PC, sign in with <b>"Ubuntu on Xorg"</b> (gear icon on the login screen).</li>
+          </ol>
+          <a class="btn btn-primary" href="https://github.com/kanthurijaswanth/opendesk/releases/download/v1.3.0/OpenDesk-Remote-1.3.0.deb"><svg class="ic" aria-hidden="true"><use href="#i-download"/></svg>Download for Ubuntu</a>
+          <details class="sum"><summary>SHA-256 checksum</summary><code>0da6e14b2b1ff39b00f21dac5441f5a096fbb39ae62cc2e032d7dd802cb111a9</code></details>
+        </article>
+      </div>
+      <p class="center muted"><a href="https://github.com/kanthurijaswanth/opendesk/releases">All versions and what's new</a></p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section alt" id="faq">
+    <div class="section-in narrow">
+      <div class="section-head">
+        <span class="eyebrow">Questions</span>
+        <h2>Good to know</h2>
+      </div>
+      <div class="faq">
+        <details><summary>Is it really free?</summary><p>Yes. No trial, no time limits, no account, no ads. It's a personal project, built to be useful.</p></details>
+        <details><summary>Does it work over the internet, or only at home?</summary><p>Over the internet, from anywhere. The two computers don't need to be on the same Wi-Fi. They connect directly when they can; if a network blocks that, OpenDesk relays the connection automatically.</p></details>
+        <details><summary>Do both people need OpenDesk?</summary><p>Yes, both computers need OpenDesk installed and open. It's quick to install, and there's nothing to set up.</p></details>
+        <details><summary>Can someone connect to my computer without me knowing?</summary><p>No. You have to click Accept each time, unless you turn on password access for your own computer. You can also switch off <b>Allow others to connect</b> on the Home screen to block every request.</p></details>
+        <details><summary>Why does Windows warn me when I install it?</summary><p>Windows shows "Windows protected your PC" for apps that aren't code-signed with a paid certificate. Click <b>More info → Run anyway</b>. You can check the file is genuine with the SHA-256 checksum above.</p></details>
+        <details><summary>It says "Starting up…" for a while. Is something wrong?</summary><p>The first start of the day can take up to a minute while OpenDesk gets ready. After that it connects in seconds.</p></details>
+        <details><summary>On Ubuntu, they can see my screen but can't control it.</summary><p>Sign out, click the gear icon on the login screen, choose <b>Ubuntu on Xorg</b>, and sign in again. The newer Wayland session blocks remote control.</p></details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot-in">
+    <div class="brand small"><img src="assets/logo.png" alt="" width="28" height="28"><span>OpenDesk</span></div>
+    <p class="muted">Free remote desktop for Windows and Ubuntu. Version 1.3.0.</p>
+    <nav class="foot-links" aria-label="Footer">
+      <a href="#download">Download</a>
+      <a href="#faq">Help</a>
+      <a href="https://github.com/kanthurijaswanth/opendesk/releases">Releases</a>
+    </nav>
+  </div>
+</footer>
+
+<!-- Icons -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m0 0-4.5-4.5M12 15l4.5-4.5M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-pointer" viewBox="0 0 24 24"><path d="M5 3l14 7-6 2-2 6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11 12l9-9m-3 3 3 3m-6 0 2 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-pen" viewBox="0 0 24 24"><path d="M4 20l4-1L19 8l-3-3L5 16zM14 7l3 3" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-clip" viewBox="0 0 24 24"><rect x="6" y="4" width="12" height="17" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 4h6v3H9z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-keyboard" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M7 14h10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-rec" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="currentColor"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.6a3.5 3.5 0 0 1 0 6.8M18.5 14.5A6.5 6.5 0 0 1 21.5 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-zap" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3 2 20h20zM12 10v4m0 3h.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+<script src="site.js"></script>
+</body>
+</html>
