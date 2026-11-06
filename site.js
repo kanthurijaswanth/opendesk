@@ -18,13 +18,13 @@
   var tabs = Array.prototype.slice.call(document.querySelectorAll('.tabs [role="tab"]'));
   var img = $("tourImg"), cap = $("tourCap"), panel = $("p-tour");
   // Warm the cache so switching is instant.
-  tabs.forEach(function (t) { var i = new Image(); i.src = "assets/shots/" + t.dataset.shot + ".png"; });
+  tabs.forEach(function (t) { var i = new Image(); i.src = "assets/shots/" + t.dataset.shot + ".webp"; });
   function select(t, focus) {
     tabs.forEach(function (x) { var on = x === t; x.setAttribute("aria-selected", on); x.tabIndex = on ? 0 : -1; });
     panel.setAttribute("aria-labelledby", t.id);
     img.classList.add("fading");
     setTimeout(function () {
-      img.src = "assets/shots/" + t.dataset.shot + ".png";
+      img.src = "assets/shots/" + t.dataset.shot + ".webp";
       img.alt = t.dataset.cap;
       cap.textContent = t.dataset.cap;
       img.classList.remove("fading");

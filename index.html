@@ -3,14 +3,85 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>OpenDesk — free remote desktop for Windows and Ubuntu</title>
-<meta name="description" content="OpenDesk is a free remote desktop app. Type someone's 9-digit ID, they click Accept, and you can see and use their computer from anywhere. Windows 10/11 and Ubuntu.">
+<title>OpenDesk – Free Remote Desktop Software for Windows &amp; Ubuntu</title>
+<meta name="description" content="OpenDesk is free remote desktop software for Windows 10/11 and Ubuntu. Control or view another computer from anywhere: type their 9-digit ID, they click Accept. File transfer, chat, password access. No account needed.">
+<meta name="keywords" content="remote desktop, free remote desktop, remote access software, remote support, AnyDesk alternative, TeamViewer alternative, Ubuntu remote desktop, Windows remote desktop, screen sharing">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Jaswanth Kanthuri">
+<link rel="canonical" href="https://kanthurijaswanth.github.io/opendesk/">
 <meta name="theme-color" content="#e5484d">
-<meta property="og:title" content="OpenDesk — free remote desktop">
-<meta property="og:description" content="See and use another computer from anywhere. Free, private, no account. Windows and Ubuntu.">
+<!-- Link previews (WhatsApp, LinkedIn, Facebook, X/Twitter, Slack) -->
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://kanthurijaswanth.github.io/opendesk/assets/shots/home-light.png">
+<meta property="og:site_name" content="OpenDesk">
+<meta property="og:url" content="https://kanthurijaswanth.github.io/opendesk/">
+<meta property="og:title" content="OpenDesk – Free Remote Desktop for Windows & Ubuntu">
+<meta property="og:description" content="See and use another computer from anywhere. Free, private, no account. Windows 10/11 and Ubuntu.">
+<meta property="og:image" content="https://kanthurijaswanth.github.io/opendesk/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="OpenDesk app home screen with the headline: Free remote desktop for Windows and Ubuntu">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="OpenDesk – Free Remote Desktop for Windows & Ubuntu">
+<meta name="twitter:description" content="See and use another computer from anywhere. Free, private, no account.">
+<meta name="twitter:image" content="https://kanthurijaswanth.github.io/opendesk/assets/og-image.png">
 <link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="assets/logo.png">
+<link rel="preload" href="assets/shots/home-light.webp" as="image" type="image/webp" media="(prefers-color-scheme: light)">
+<!-- Structured data: lets Google show OpenDesk as a free app with version, OS and download -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://kanthurijaswanth.github.io/opendesk/#app",
+      "name": "OpenDesk",
+      "alternateName": "OpenDesk Remote",
+      "description": "Free remote desktop software for Windows and Ubuntu. Control or view another computer from anywhere with a 9-digit ID, file transfer, chat, voice and password access.",
+      "applicationCategory": "UtilitiesApplication",
+      "applicationSubCategory": "Remote desktop",
+      "operatingSystem": "Windows 10, Windows 11, Ubuntu 22.04+, Debian",
+      "softwareVersion": "1.3.0",
+      "datePublished": "2026-11-05",
+      "fileSize": "79 MB",
+      "url": "https://kanthurijaswanth.github.io/opendesk/",
+      "downloadUrl": [
+        "https://github.com/kanthurijaswanth/opendesk/releases/download/v1.3.0/OpenDesk-Remote-1.3.0-Setup.exe",
+        "https://github.com/kanthurijaswanth/opendesk/releases/download/v1.3.0/OpenDesk-Remote-1.3.0.deb"
+      ],
+      "image": "https://kanthurijaswanth.github.io/opendesk/assets/og-image.png",
+      "screenshot": [
+        "https://kanthurijaswanth.github.io/opendesk/assets/shots/home-light.png",
+        "https://kanthurijaswanth.github.io/opendesk/assets/shots/accept-light.png",
+        "https://kanthurijaswanth.github.io/opendesk/assets/shots/security-light.png"
+      ],
+      "featureList": "Remote control, view only, password access, file transfer, chat, voice, draw on screen, clipboard, special keys, session recording, saved computers, direct or relayed connections",
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "author": { "@type": "Person", "name": "Jaswanth Kanthuri", "url": "https://github.com/kanthurijaswanth" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://kanthurijaswanth.github.io/opendesk/#site",
+      "name": "OpenDesk",
+      "url": "https://kanthurijaswanth.github.io/opendesk/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Is OpenDesk really free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. No trial, no time limits, no account and no ads." } },
+        { "@type": "Question", "name": "Is OpenDesk a free alternative to AnyDesk or TeamViewer?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. It does the everyday jobs people use those apps for: see and control another computer, send files, chat, and connect to your own PCs with a password. It's free with no session limits. OpenDesk isn't affiliated with either company." } },
+        { "@type": "Question", "name": "Does OpenDesk work over the internet?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, from anywhere. The two computers don't need to be on the same Wi-Fi. They connect directly when they can, and relay automatically if a network blocks that." } },
+        { "@type": "Question", "name": "Do both people need OpenDesk installed?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, both computers need OpenDesk installed and open. There's nothing to set up." } },
+        { "@type": "Question", "name": "Can someone connect to my computer without me knowing?", "acceptedAnswer": { "@type": "Answer", "text": "No. You have to click Accept each time, unless you turn on password access for your own computer." } },
+        { "@type": "Question", "name": "Does OpenDesk work on Ubuntu Linux?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Install the .deb package. To let others control an Ubuntu computer, sign in with the 'Ubuntu on Xorg' session." } }
+      ]
+    }
+  ]
+}
+</script>
 <link rel="preload" href="assets/fonts/Manrope-400-800-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -57,8 +128,9 @@
         <div class="window">
           <div class="window-bar" aria-hidden="true"><i></i><i></i><i></i></div>
           <picture>
-            <source srcset="assets/shots/home-dark.png" media="(prefers-color-scheme: dark)">
-            <img src="assets/shots/home-light.png" alt="The OpenDesk home screen: your 9-digit ID on the left, a box to type the other computer's ID on the right, and saved computers below." width="1920" height="1008">
+            <source srcset="assets/shots/home-dark.webp" media="(prefers-color-scheme: dark)" type="image/webp">
+            <source srcset="assets/shots/home-light.webp" type="image/webp">
+            <img src="assets/shots/home-light.png" alt="OpenDesk remote desktop home screen: your 9-digit ID on the left, a box to type the other computer's ID on the right, and saved computers below." width="1600" height="840" fetchpriority="high">
           </picture>
         </div>
       </figure>
@@ -148,7 +220,7 @@
         <figure class="tour-view" id="p-tour" role="tabpanel" aria-labelledby="t-home">
           <div class="window">
             <div class="window-bar" aria-hidden="true"><i></i><i></i><i></i></div>
-            <img id="tourImg" src="assets/shots/home-light.png" alt="" width="1920" height="1008">
+            <img id="tourImg" src="assets/shots/home-light.webp" alt="The OpenDesk Home screen: your ID on the left, the box to connect to someone on the right, and your favourite computers below." width="1600" height="840" loading="lazy" decoding="async">
           </div>
           <figcaption id="tourCap">The Home screen: your ID on the left, the box to connect to someone on the right, and your favourite computers below.</figcaption>
         </figure>
@@ -228,6 +300,7 @@
       </div>
       <div class="faq">
         <details><summary>Is it really free?</summary><p>Yes. No trial, no time limits, no account, no ads. It's a personal project, built to be useful.</p></details>
+        <details><summary>Is OpenDesk a free alternative to AnyDesk or TeamViewer?</summary><p>Yes. It does the everyday jobs people use those apps for: see and control another computer, send files, chat, and reach your own PCs with a password. It's free, with no account and no session limits. OpenDesk is an independent project and isn't affiliated with either company.</p></details>
         <details><summary>Does it work over the internet, or only at home?</summary><p>Over the internet, from anywhere. The two computers don't need to be on the same Wi-Fi. They connect directly when they can; if a network blocks that, OpenDesk relays the connection automatically.</p></details>
         <details><summary>Do both people need OpenDesk?</summary><p>Yes, both computers need OpenDesk installed and open. It's quick to install, and there's nothing to set up.</p></details>
         <details><summary>Can someone connect to my computer without me knowing?</summary><p>No. You have to click Accept each time, unless you turn on password access for your own computer. You can also switch off <b>Allow others to connect</b> on the Home screen to block every request.</p></details>
