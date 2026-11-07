@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://kanthurijaswanth.github.io/opendesk/</loc>
+    <loc>https://kanthurijaswanth.github.io/samipa/</loc>
     <lastmod>2026-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <image:image><image:loc>https://kanthurijaswanth.github.io/opendesk/assets/og-image.png</image:loc></image:image>
-    <image:image><image:loc>https://kanthurijaswanth.github.io/opendesk/assets/shots/home-light.png</image:loc></image:image>
-    <image:image><image:loc>https://kanthurijaswanth.github.io/opendesk/assets/shots/accept-light.png</image:loc></image:image>
+    <image:image><image:loc>https://kanthurijaswanth.github.io/samipa/assets/og-image.png</image:loc></image:image>
+    <image:image><image:loc>https://kanthurijaswanth.github.io/samipa/assets/shots/home-light.png</image:loc></image:image>
+    <image:image><image:loc>https://kanthurijaswanth.github.io/samipa/assets/shots/accept-light.png</image:loc></image:image>
   </url>
 </urlset>
