@@ -1,8 +1,8 @@
 (function () {
   "use strict";
   var REL = "https://github.com/kanthurijaswanth/samipa/releases/download/v1.3.0/";
-  var WIN = { href: REL + "Samipa-1.4.0-Setup.exe", label: "Download for Windows", meta: "Windows 10 and 11 · 79 MB" };
-  var DEB = { href: REL + "Samipa-1.4.0.deb", label: "Download for Ubuntu", meta: "Ubuntu / Debian · 104 MB" };
+  var WIN = { href: REL + "Samipa-1.4.1-Setup.exe", label: "Download for Windows", meta: "Windows 10 and 11 · 79 MB" };
+  var DEB = { href: REL + "Samipa-1.4.1.deb", label: "Download for Ubuntu", meta: "Ubuntu / Debian · 104 MB" };
 
   // Main button matches the visitor's computer; the second button offers the other one.
   var ua = (navigator.userAgentData && navigator.userAgentData.platform) || navigator.platform || navigator.userAgent || "";
